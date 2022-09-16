@@ -1,16 +1,20 @@
-import React, { useState } from "react"
+import React, { useState, useContext } from "react"
+import { AuthContext } from "../../Context/AuthContext"
 import "./style.css"
 
 const LoginPage = () => {
+  const { authenticated, login } = useContext(AuthContext)
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const handleSubmit = (evento) => {
     evento.preventDefault()
     console.log("submit", { email, password })
+    login(email, password) // integração com o meu contexto e por fim com a minha api!
   }
   return (
     <div id="login">
       <h1 className="title">Login do sistema</h1>
+      <p>{String(authenticated)}</p>
       <form className="form" onSubmit={handleSubmit}>
         <div className="field">
           <label htmlFor="email">Email</label>
