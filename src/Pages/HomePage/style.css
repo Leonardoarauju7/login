@@ -1,5 +1,139 @@
-.nav-bar ul {
-  position: fixed;
-  top: 0;
+* {
+  margin: 0;
+}
+.nav-bar {
+  display: flex;
   width: 100%;
+  height: 60px;
+}
+
+ul.topnav {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 57px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #06b983;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 6px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #06b983;
+}
+
+ul.topnav li a.active {
+  background: red;
+  background-color: #06b983;
+}
+
+ul.topnav li.right {
+  width: 60px;
+  heigth: 18px;
+  margin-right: 51px;
+  float: right;
+}
+
+.container-inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 20px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.select {
+  width: 200px;
+  height: 40px;
+  margin-top: 57px;
+  padding: 8px 20px;
+  box-shadow: 0px 2.5px 2px 0px gray;
+  border-color: transparent;
+  color: gray;
+}
+
+.endereco {
+  width: 616px;
+  height: 40px;
+  margin-top: 57px;
+  border-radius: 4px;
+  padding: 8px, 20px;
+  box-shadow: 0px 2.5px 2px 0px gray;
+  border-color: transparent;
+  color: gray;
+}
+
+.btnhome {
+  width: 193px;
+  height: 40px;
+  margin-top: 57px;
+  padding: 8px 32px, 8px, 16px;
+  border-radius: 4px;
+  border-style: none;
+
+  font-size: 18px;
+  font-style: normal;
+  line-height: 23.4px;
+  align-items: center;
+  color: #ffffff;
+  background: #06b983;
+}
+.btnhome1 {
+  width: 114px;
+  height: 40px;
+  margin-top: 57px;
+  padding: 8px 32px, 8px, 16px;
+  border-radius: 4px;
+  border-style: none;
+
+  font-size: 18px;
+  font-style: normal;
+  line-height: 23.4px;
+  align-items: center;
+  color: #ffffff;
+  background: #06b983;
+}
+
+.container-geo {
+  height: 403px;
+  margin: 27px 19px 0px 19px;
+  background-image: url(C:\Users\ak77-\Desktop\login\public\mapa.png);
+}
+
+.periodo-referente p {
+  width: 117px;
+  height: 21px;
+  margin: 40px 21px 0px 21px;
+  font-family: "Cabin";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #7a7a7a;
+  letter-spacing: 0.01em;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
 }
