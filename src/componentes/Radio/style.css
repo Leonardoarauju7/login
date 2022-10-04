@@ -1,0 +1,32 @@
+.caixa-radio {
+  position: relative;
+  margin-right: 0px;
+  top: 69px;
+}
+.nome-input {
+  position: relative;
+  margin-right: 10px;
+  top: 67px;
+}
+
+.caixa-radio::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  border-radius: 0px;
+  background: #fff;
+}
+
+.caixa-radio:checked::after {
+  content: "\2713";
+  color: #06b983;
+  font-size: 34px;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  left: 1px;
+}

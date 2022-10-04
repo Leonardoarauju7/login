@@ -33,16 +33,31 @@ export const AuthProvider = ({ children }) => {
       navigate("/")
     }
   }
-
+  const HomePage = () => {
+    console.log("")
+    navigate("/")
+  }
+  const ListaRegistro = () => {
+    console.log("listaRegistro")
+    navigate("/ListaRegistro")
+  }
   const logout = () => {
     console.log("logout")
     //localStorage.removeItem("user")
     setUser(null)
     navigate("/login")
   }
+
   return (
     <AuthContext.Provider
-      value={{ authenticated: !!user, user, login, logout }}
+      value={{
+        authenticated: !!user,
+        user,
+        HomePage,
+        login,
+        logout,
+        ListaRegistro,
+      }}
     >
       {children}
     </AuthContext.Provider>

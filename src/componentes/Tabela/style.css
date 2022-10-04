@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container-table {
+  overflow-x: auto;
+  margin: 20px;
+  background: #f5f5f5;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 40px;
+  top: 36px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #ffecbc;
+}
+
+.topo {
+  font-weight: 600;
+  fonte-size: 14px;
+  line-height: 21px;
+  letter: 1%;
+}
+
+.topo2 {
+  font-style: normal;
+  font-weight: 400;
+  fonte-size: 12px;
+  line-height: 150%;
+  letter: 0.01em;
+  color: #3b4256;
+}

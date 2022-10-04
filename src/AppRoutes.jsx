@@ -4,10 +4,12 @@ import {
   Route,
   Routes,
   Navigate,
+  Link,
 } from "react-router-dom"
 
 import LoginPage from "./Pages/LoginPage"
 import HomePage from "./Pages/HomePage"
+import ListaRegistro from "./Pages/ListaRegistro"
 
 import { AuthProvider, AuthContext } from "./Context/Auth"
 
@@ -34,6 +36,8 @@ const AppRoutes = () => {
               </Private>
             }
           />
+
+          <Route exact path="/ListaRegistro" element={<ListaRegistro />} />
         </Routes>
       </AuthProvider>
     </Router>

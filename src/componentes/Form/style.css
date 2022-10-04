@@ -1,0 +1,63 @@
+.container-inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 20px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.select {
+  width: 200px;
+  height: 40px;
+  margin-top: 57px;
+  padding: 8px 20px;
+  box-shadow: 0px 2.5px 2px 0px gray;
+  border-color: transparent;
+  color: gray;
+}
+
+.endereco {
+  width: 616px;
+  height: 40px;
+  margin-top: 57px;
+  border-radius: 4px;
+  padding-left: 20px;
+  box-shadow: 0px 2.5px 2px 0px gray;
+  border-color: transparent;
+  color: gray;
+}
+
+.btnhome {
+  width: 193px;
+  height: 40px;
+  margin-top: 57px;
+  padding: 8px 32px, 8px, 16px;
+  border-radius: 4px;
+  border-style: none;
+
+  font-size: 18px;
+  font-style: normal;
+  line-height: 23.4px;
+  align-items: center;
+  color: #ffffff;
+  background: #06b983;
+}
+.btnhome1 {
+  width: 114px;
+  height: 40px;
+  margin-top: 57px;
+  padding: 8px 32px, 8px, 16px;
+  border-radius: 4px;
+  border-style: none;
+
+  font-size: 18px;
+  font-style: normal;
+  line-height: 23.4px;
+  align-items: center;
+  color: #ffffff;
+  background: #06b983;
+}
