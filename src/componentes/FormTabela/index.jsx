@@ -1,7 +1,17 @@
 import React from "react"
-import Radio from "../../componentes/Radio"
+
 import "./style.css"
 export default function FormTabela() {
+  const dadosInput = [
+    {
+      regiao: "santa maria ",
+      Agente: "leonardo",
+      DataInicial: "",
+      DataFinal: "",
+      Finalizado: "Finalizado",
+      Pendente: "pendente",
+    },
+  ]
   return (
     <>
       <div className="container-inputs">
@@ -16,7 +26,9 @@ export default function FormTabela() {
           </option>
         </select>
         <select className="select">
+          {" "}
           <option selected value="regiao">
+            {" "}
             Data inicial
           </option>
         </select>
