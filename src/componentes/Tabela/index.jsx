@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { FaSearch, FaFile, FaPen } from "react-icons/fa"
 
 import "./style.css"
