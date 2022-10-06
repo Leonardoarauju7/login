@@ -36,7 +36,6 @@ const AppRoutes = () => {
               </Private>
             }
           />
-
           <Route exact path="/ListaRegistro" element={<ListaRegistro />} />
         </Routes>
       </AuthProvider>

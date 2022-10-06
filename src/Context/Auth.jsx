@@ -28,7 +28,7 @@ export const AuthProvider = ({ children }) => {
     } //moock pra simular os dados da api
     localStorage.setItem("user", JSON.stringify(loggedUser)) // guardando no local storage
 
-    if (password === "secret") {
+    if (password === "secret" && email === "user@teste.com") {
       setUser({ loggedUser })
       navigate("/")
     }
@@ -38,7 +38,7 @@ export const AuthProvider = ({ children }) => {
     navigate("/")
   }
   const ListaRegistro = () => {
-    console.log("listaRegistro")
+    console.log("")
     navigate("/ListaRegistro")
   }
   const logout = () => {

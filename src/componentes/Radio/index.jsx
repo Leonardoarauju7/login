@@ -1,4 +1,5 @@
 import React from "react"
+
 import "./style.css"
 
 export default function Radio() {
@@ -9,7 +10,7 @@ export default function Radio() {
         class="caixa-radio"
         type="radio"
         name="caixa-radio"
-        value="caixa-finalizado"
+        value="radio1"
         checked
       />
       <label for="finalizado" className="nome-input">
@@ -21,7 +22,7 @@ export default function Radio() {
         class="caixa-radio"
         type="radio"
         name="caixa-radio"
-        value="caixa-pendente"
+        value="radio2"
       />
       <label for="pendente" className="nome-input">
         PENDENTE

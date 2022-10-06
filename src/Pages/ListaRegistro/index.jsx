@@ -5,8 +5,7 @@ export default function ListaRegistro() {
   return (
     <>
       <NavBar />
-
-      <h1>lista registros</h1>
+      <h1>lista registro</h1>
     </>
   )
 }
