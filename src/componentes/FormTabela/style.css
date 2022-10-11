@@ -1,10 +1,74 @@
-.endereco2 {
-  width: 1070px;
+.container-inputs-tabela {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 20px;
+  gap: 10px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.caixa-radio {
+  position: relative;
+  margin-right: 20px;
+  top: 60px;
+}
+.nome-input {
+  position: relative;
+  margin-right: 10px;
+  top: 67px;
+  font-family: Cabin;
+  font-weight: 400;
+  color: #b7b7b7;
+}
+
+.caixa-radio::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000;
+  border-radius: 0px;
+  background: #fff;
+}
+
+.caixa-radio:checked::after {
+  content: "\2713";
+  color: #06b983;
+  font-size: 34px;
+  font-weight: bold;
+  position: absolute;
+  top: -20px;
+  left: 1px;
+}
+
+.select-tabela {
+  width: 200px;
   height: 40px;
-  margin: 17px 0px 30px 19px;
+  margin-top: 57px;
+  padding: 8px 20px;
+  box-shadow: 0px 2.5px 2px 0px gray;
+  border-color: transparent;
+  font-family: IBM Plex Sans;
+  font-weight: 400;
+  line-height: 24px;
+  color: gray;
+}
+
+.endereco-tabela {
+  width: 1100px;
+  height: 40px;
+  margin-top: 35px;
+  margin-left: 20px;
   border-radius: 4px;
   padding-left: 20px;
   box-shadow: 0px 2.5px 2px 0px gray;
   border-color: transparent;
-  color: gray;
+  font-family: IBM Plex Sans;
+  font-weight: 400;
+  color: #b7b7b7;
 }

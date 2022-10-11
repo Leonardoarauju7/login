@@ -27,6 +27,7 @@ tr:hover {
 }
 
 .topo {
+  font-family: Roboto;
   font-weight: 600;
   fonte-size: 14px;
   line-height: 21px;
@@ -34,6 +35,7 @@ tr:hover {
 }
 
 .topo2 {
+  font-family: Cabin;
   font-style: normal;
   font-weight: 400;
   fonte-size: 12px;

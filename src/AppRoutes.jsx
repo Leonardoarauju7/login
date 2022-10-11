@@ -4,7 +4,6 @@ import {
   Route,
   Routes,
   Navigate,
-  Link,
 } from "react-router-dom"
 
 import LoginPage from "./Pages/LoginPage"

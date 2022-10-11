@@ -7,11 +7,11 @@ export default function Table() {
   const dadosTabela = [
     {
       Data: "21/08/2022",
-      Regiao: "santa maria",
+      Regiao: "Santa Maria- DF",
       Endereco: "Ql 15 Lt 22",
-      Agente: "Leonardo",
-      Status: "disponivel",
-      Pendente: "sim",
+      Agente: "Leonardo do Nascimento Araujo",
+      Status: "Pendente",
+      Documento: "Pendente Documento",
     },
   ]
 
@@ -26,7 +26,7 @@ export default function Table() {
               <th className="topo">Endereço</th>
               <th className="topo">Agente</th>
               <th className="topo">Status</th>
-              <th className="topo">Pendente</th>
+              <th className="topo"></th>
               <th className="topo"> </th>
               <th className="topo"></th>
               <th className="topo"></th>
@@ -40,7 +40,7 @@ export default function Table() {
                 <td className="topo2">{dadosTabela.Endereco}</td>
                 <td className="topo2">{dadosTabela.Agente}</td>
                 <td className="topo2">{dadosTabela.Status}</td>
-                <td className="topo2">{dadosTabela.Pendente}</td>
+                <td className="topo2">{dadosTabela.Documento}</td>
                 <td>
                   <FaFile size={20} color="#06B983" />
                 </td>

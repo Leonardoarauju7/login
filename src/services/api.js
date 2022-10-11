@@ -1,4 +1,4 @@
-import axios from "axios"
+/*import axios from "axios"
 
 export const api = axios.create({
   baseURL: "https://localhost:3000",
@@ -11,3 +11,4 @@ export const createSession = async (email, password) => {
 export const getUsers = async () => {
   return api.get("/users")
 }
+*/

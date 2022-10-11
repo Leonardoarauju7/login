@@ -4,7 +4,7 @@ import Form from "../../componentes/Form/index"
 import NavBar from "../../componentes/NavBar"
 import Periodo from "../../componentes/Periodo"
 import FormTabela from "../../componentes/FormTabela"
-
+import Geolocalizacao from "../../componentes/geolocalização"
 import "./style.css"
 
 const HomePage = () => {
@@ -12,21 +12,9 @@ const HomePage = () => {
     <>
       <NavBar />
       <Form />
-      <div className="container-geo"></div>
+      <Geolocalizacao />
       <Periodo />
-      <div>
-        <FormTabela />
-
-        <div className="enderecoSegundo">
-          <input
-            className="endereco2"
-            type="text"
-            name="endereço"
-            placeholder="Endereço"
-          />
-        </div>
-      </div>
-
+      <FormTabela />
       <Table />
     </>
   )

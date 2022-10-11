@@ -1,4 +1,4 @@
-.container-inputs {
+.container-inputs-geo {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -10,7 +10,7 @@
   flex-grow: 0;
 }
 
-.select {
+.select-geo {
   width: 200px;
   height: 40px;
   margin-top: 57px;
@@ -20,7 +20,7 @@
   color: gray;
 }
 
-.endereco {
+.endereco-geo {
   width: 616px;
   height: 40px;
   margin-top: 57px;
@@ -38,7 +38,7 @@
   padding: 8px 32px, 8px, 16px;
   border-radius: 4px;
   border-style: none;
-
+  font-family: IBM Plex Sans;
   font-size: 18px;
   font-style: normal;
   line-height: 23.4px;
@@ -53,7 +53,7 @@
   padding: 8px 32px, 8px, 16px;
   border-radius: 4px;
   border-style: none;
-
+  font-family: IBM Plex Sans;
   font-size: 18px;
   font-style: normal;
   line-height: 23.4px;

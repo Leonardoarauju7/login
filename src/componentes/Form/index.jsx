@@ -5,20 +5,20 @@ import "./style.css"
 export default function Input() {
   return (
     <>
-      <div className="container-inputs">
-        <select className="select">
+      <div className="container-inputs-geo">
+        <select className="select-geo">
           <option selected value="regiao">
             Regiao
           </option>
           <option value="brasilia">Brasilia</option>
         </select>
         <input
-          className="endereco"
+          className="endereco-geo"
           type="text"
           name="endereço"
           placeholder="Endereço"
         />
-        <select className="select">
+        <select className="select-geo">
           <option selected value="agente">
             Agente
           </option>

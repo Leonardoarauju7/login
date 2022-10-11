@@ -11,7 +11,7 @@ export default function NavBar() {
   }
   const { ListaRegistro } = useContext(AuthContext)
 
-  const handleListaRegistro = () => {
+  function handleListaRegistro() {
     ListaRegistro()
   }
 
@@ -25,7 +25,7 @@ export default function NavBar() {
       <div className="nav-bar">
         <ul class="topnav">
           <li>
-            <a class="active" href="#">
+            <a class="active" href="#" onClick={handleHomePage}>
               NEOENERGIA
             </a>
           </li>
@@ -43,7 +43,6 @@ export default function NavBar() {
             <a href="#Logout" onClick={handleLogout}>
               Sair
             </a>
-
             <p>{authenticated}</p>
           </li>
         </ul>
